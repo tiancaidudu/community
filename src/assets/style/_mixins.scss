@@ -1,0 +1,19 @@
+@import "var";
+
+@mixin text-shadow($radius, $color: $primary-color) {
+    text-shadow: 0 0 $radius*10 $color;
+}
+
+.ellipse {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.clearfix {
+    &:after, &::before {
+        display: table-cell;
+        clear: both;
+        content: '';
+    }
+}

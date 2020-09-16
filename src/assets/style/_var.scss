@@ -1,0 +1,27 @@
+$primary-color: #1EF5FF;
+
+$bg-color: #001729;
+$invert-color: #fff;
+
+$primary-color-darker: #129CA9;
+$primary-color-light1: rgba($primary-color, 0.6);
+$primary-color-light2: rgba($primary-color, 0.4);
+$primary-color-light3: rgba($primary-color, 0.3);
+$primary-color-light4: rgba($primary-color, 0.1);
+
+$status-warning: #FF7E41;
+$status-error: #F56C6C;
+$status-info: $primary-color;
+$status-success: #68E310;
+
+$text-color: $invert-color;
+
+$primary-border-color: $primary-color;
+$primary-border-color-light: $primary-color-light1;
+
+$font-size-base: 16px;
+$font-size-large: 18px;
+$font-size-extra-large: 30px;
+$font-size-medium: 15px;
+$font-size-small: 14px;
+$font-size-mini: 12px;
